@@ -3,6 +3,7 @@
 using namespace std;
 int pal(int a )
 { int rem,rev=0;
+
  int temp; temp=a; 
   while(a!=0)
   {
@@ -42,13 +43,13 @@ int main()
             if(p==1) {
 			{cout<<"nearest palindrome is :"<<n<<endl; goto l1;}
             }
-            else
+            else{
+			n=n-2;
              continue;}
     }
         }
             }
     l1:  t--;
 
-}  return 0;
-}
-
+}  }return 0;
+ }
